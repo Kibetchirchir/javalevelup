@@ -1,8 +1,9 @@
 public class HelloWorld{
-    public static void methodExample() {
-        System.out.println("this an example of a method");
+    public static void methodExample(String name) {
+        System.out.println("His name is " + name);
     }
     public static void main(String[] args) {
-        methodExample();
+        methodExample("Chirchir");
+        methodExample("Kenneth");
     }
 }
