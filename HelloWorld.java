@@ -1,5 +1,8 @@
 public class HelloWorld{
+    public static void methodExample() {
+        System.out.println("this an example of a method");
+    }
     public static void main(String[] args) {
-        System.out.println("Hello world I am my first java series");
+        methodExample();
     }
 }
