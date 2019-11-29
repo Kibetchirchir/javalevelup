@@ -11,7 +11,7 @@ class MyClass{
     */
 
     public void myPublicMethod(){
-        System.out.println("this should be called after initializing the class")
+        System.out.println("this should be called after initializing the class");
     }
     /**
      * this is the main which is called when the class is called
