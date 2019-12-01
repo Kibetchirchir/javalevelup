@@ -1,4 +1,13 @@
 public class HelloWorld{
+    int x;
+    String y;
+    public HelloWorld(int model, String type){
+        x = model;
+        y = type;
+    }
+    public void myMethod(){
+        System.out.println("My car is " + y + " and the make is " + x);
+    }
     public static void methodExample(String name, int age) {
         String status;   
         if(age < 18){
@@ -21,6 +30,7 @@ public class HelloWorld{
         methodExample("Kenneth", 15);
         System.out.println(ageIn5yrs(5));
         System.out.println(ageIn5yrs(5.5));
-
+        HelloWorld myObj = new HelloWorld(2012, "corolla");
+        myObj.myMethod();
     }
 }
