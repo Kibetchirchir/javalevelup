@@ -40,10 +40,13 @@ public class HelloWorld{
         HelloWorld myObj = new HelloWorld();
         // myObj.myMethod();
         // before you initialize
+        System.out.println("before setter");
         System.out.println(myObj.x + " " + myObj.y);
         // after you initialize
-        myObj.x = 2012;
-        myObj.y = "mercedes benz";
+        // myObj.x = 2012;
+        // myObj.y = "mercedes benz";
+        myObj.setName();
+        System.out.println("after setter");
         System.out.println(myObj.x + " " + myObj.y);
     }
 }
